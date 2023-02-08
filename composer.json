@@ -1,0 +1,16 @@
+{
+    "name": "hear-concept/hmv",
+    "description": "HMV Helpers",
+    "autoload": {
+        "psr-4": {
+            "HearConcept\\HMV\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian Steiner",
+            "email": "florian.steiner3@gmail.com"
+        }
+    ],
+    "require": {}
+}
