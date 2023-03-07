@@ -90,7 +90,7 @@ class HMVNumber
     #[Pure]
     public function isTinnitus(): bool
     {
-        return !$this->isNull() && $this->subGroup == "14";
+        return !$this->isNull() && ($this->subGroup == "14" || $this->subGroup() == "24");
     }
 
     /**
