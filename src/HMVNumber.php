@@ -9,7 +9,7 @@ use JetBrains\PhpStorm\Pure;
 class HMVNumber
 {
     const REGEX = '/^([0-9]+)\.([0-9]+)\.([0-9]+)\.([0-9])([0-9]+)$/';
-    const REGEX_PLACEHOLDER = '/^([0-9]+)\.([0-9]+)\.([0-9]+)\.([0-9xX])([0-9xX]+)$/';
+    const REGEX_PLACEHOLDER = '/^([0-9]+)\.([0-9]+)\.([0-9xX]+)\.([0-9xX])([0-9xX]+)$/';
 
     /**
      * @var string|null
