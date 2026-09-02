@@ -1,5 +1,6 @@
 {
     "name": "hear-concept/hmv",
+    "version": "1.0.0",
     "description": "HMV Helpers",
     "autoload": {
         "psr-4": {
